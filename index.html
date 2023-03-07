@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="heading">
+        <h1>Payment Form</h1>
+    </div>
+
+    <div class="container">
+
+        <header>
+            <nav>
+                <ul class="nav_links">
+                <li><a class="nav nav1" href="#">HOME</a></li>
+                <li><a class="nav nav2" href="#">BLOG</a></li>
+                <li><a class="nav nav3" href="#">ABOUT</a></li>
+                <li><a class="nav nav4" href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!-- <div class="heading">
+            <h1>Payment Form</h1>
+        </div> -->
+        <div class="contact">
+            <h1 class="heading1">Just say Hello!</h1>
+            <div class="line1">Let us know more about you!</div>
+            <div><input class="input name" type="text" name="name" placeholder="Name" required></div>
+            <div><input class="input email"  type="email" name="email" placeholder="Mail" required></div>
+            <div><input class="input phone" type="number" name="phone" placeholder="Phone" required></div>
+        </div>
+
+
+        <div class="payment">
+            <!-- <h1 class="heading2">Payment Information</h1> -->
+            <div>
+                <select class="input card_type" name="card_type" id="card_type" required>
+                    <option value="">--Select a Card Type--</option>
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">Mastercard</option>
+                    <option value="rupay">Rupay</option>
+                </select>
+            </div>
+            <div><input class="input card_number" type="number" name="card_number" placeholder="Card Number" required></div>
+            <div><input class="input cvv" type="number" name="cvv" placeholder="CVV" required></div>
+            <div><input class="input date" type="date" name="exp_date" required></div>
+        </div>
+        <button type="button">Pay Now</button> 
+
+        <div class="footer-container">
+            <div class="footer">
+                <div class="footer-heading footer-1">
+                    <h2 class="heading3">Contact <br> Information</h2>
+                    <div class="text">77 Baker Street <br> Bondowoso. 87655 <br> Indonasia</div>
+                    <div class="text">Call Us: +62813346100 </div>
+                    <div class="text">We are open from Monday-Friday <br> 08:00am -05:00pm</div>
+                </div>
+                <div class="footer-heading footer-2">
+                    <h2 class="heading4">Follow Us</h2>
+                    <a class="links" href="#">Facebook</a>
+                    <a class="links" href="#">Instagram</a>
+                    <a class="links" href="#">Youtube</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>
